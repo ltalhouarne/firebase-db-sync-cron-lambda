@@ -64,7 +64,3 @@ function getDateTime() {
 
     return hour + ":" + min + ":" + sec  + " - " + month + "/" + day + "/" + year
 }
-
-
-
-
