@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "firebase-admin": "^5.0.0"
+    "firebase-admin": "^5.2.1",
+    "npm-platform-dependencies": "0.0.13"
   }
 }
