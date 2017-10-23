@@ -3,8 +3,7 @@
 Unfortunately, Firebase/Google cloud functions do not support cron schedule triggers out of the box.
 This project is therefore used with [AWS lambdas](https://aws.amazon.com/lambda/).
  
-In order to use this function, create a Lambda function, generate your DB access account keys for both your source and destination
-and upload those along with the function.
+In order to use this function, create a Lambda function, generate your DB access account keys for both your source and destination databases and upload those along with the function.
 
 You will need to zip the node_modules along with the index.js and the aformentioned keys.
 
