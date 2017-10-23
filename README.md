@@ -1,4 +1,4 @@
-### Sync Firebase database based on a cron schedule
+### Sync/Backup Firebase database with another based on a cron schedule
 
 Unfortunately, Firebase/Google cloud functions do not support cron schedule triggers out of the box.
 This project is therefore used with [AWS lambdas](https://aws.amazon.com/lambda/).
